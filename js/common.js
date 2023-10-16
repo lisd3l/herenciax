@@ -353,7 +353,7 @@ window.onload = function () {
                     elements1_font3[0].classList.add('appear-active');
                     elements1_font4[0].classList.remove('appear');
                     elements1_font4[0].classList.add('appear-active');
-                }, 900); // 根据CSS中的transition-delay来设置适当的时间
+                }, 2000); // 根据CSS中的transition-delay来设置适当的时间
             }
         }
         if (elements10.length > 0) {
