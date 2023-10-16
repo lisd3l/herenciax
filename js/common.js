@@ -30,12 +30,11 @@ window.onload = function () {
         return false;
     });
     // HERENCIAX
-    var elements1 = document.querySelectorAll('[data-s-67642eaf-5eb8-4cd2-a057-77227c37df1a]');
-    var elements1_font1 = document.querySelectorAll('[data-s-6c262c92-16d2-483c-b932-7b94046c7a0a]');
-    var elements1_font2 = document.querySelectorAll('[data-s-42fdb174-0819-420f-a123-84eda27cb7ed]');
-    var elements1_img1 = document.querySelectorAll('[data-s-d1a33ea8-ea95-4d89-83ae-c09d7dd9696a]');
-    var elements1_article1 = document.querySelectorAll('[data-s-1766529f-6ce0-48b1-9112-8cc0a77f5882]');
-    var elements1_font3 = document.querySelectorAll('[data-s-157637a9-a055-4145-94f9-90ea1713dd97]');
+    var elements1 = document.querySelectorAll('[data-s-ac8dd833-1e9c-446c-8254-882b8dcb7590]');
+    var elements1_font1 = document.querySelectorAll('[data-s-3e6bbb7d-a762-4969-ad96-7de938adb64d]');
+    var elements1_font2 = document.querySelectorAll('[data-s-b3fe4c86-e45c-4011-81ce-1776dfb1abde]');
+    var elements1_font3 = document.querySelectorAll('[data-s-6358f866-8d29-439c-81d0-d7ccfec1730f]');
+    var elements1_font4 = document.querySelectorAll('[data-s-be8e0c33-feef-4fbe-8373-ce4d73928b29]');
     // Residential
     var elements2_once_flag = false;
     var elements2 = document.querySelectorAll('[data-s-521aed6b-f9f5-4e09-ac71-b3974f28207b]');
@@ -47,7 +46,6 @@ window.onload = function () {
     var elements2_font4 = document.querySelectorAll('[data-s-b5490298-3f8b-4593-b0d5-355c2a2949a5]');
     var elements2_font5 = document.querySelectorAll('[data-s-239d756f-fa92-4ecc-92aa-64380f5c14b7]');
     var elements2_font6 = document.querySelectorAll('[data-s-6b590abc-1b75-4c4c-a2c5-076b8c76143a]');
-    var elements2_font7 = document.querySelectorAll('[data-s-3889f26c-9731-49d6-a79d-69bab4a998e0]');
     // Commercial
     var elements3_once_flag = false;
     var elements3 = document.querySelectorAll('[data-s-03df60f1-2cde-4c4c-99c1-fe3a67b603d1]');
@@ -342,9 +340,8 @@ window.onload = function () {
                 // 添加.appear类来启动动画
                 elements1_font1[0].classList.add('appear');
                 elements1_font2[0].classList.add('appear');
-                elements1_img1[0].classList.add('appear');
-                elements1_article1[0].classList.add('appear');
                 elements1_font3[0].classList.add('appear');
+                elements1_font4[0].classList.add('appear');
                 // 使用setTimeout或者其他逻辑来移除.appear类和添加.appear-active类，以触发进一步的动画效果
                 setTimeout(() => {
                     elements1[0].style.visibility = "visible"
@@ -352,12 +349,10 @@ window.onload = function () {
                     elements1_font1[0].classList.add('appear-active');
                     elements1_font2[0].classList.remove('appear');
                     elements1_font2[0].classList.add('appear-active');
-                    elements1_img1[0].classList.remove('appear');
-                    elements1_img1[0].classList.add('appear-active');
-                    elements1_article1[0].classList.remove('appear');
-                    elements1_article1[0].classList.add('appear-active');
                     elements1_font3[0].classList.remove('appear');
                     elements1_font3[0].classList.add('appear-active');
+                    elements1_font4[0].classList.remove('appear');
+                    elements1_font4[0].classList.add('appear-active');
                 }, 900); // 根据CSS中的transition-delay来设置适当的时间
             }
         }
@@ -375,7 +370,7 @@ window.onload = function () {
                     elements10[0].style.visibility = "visible"
                     elements10_font1[0].classList.remove('appear');
                     elements10_font2[0].classList.remove('appear');
-                    elements10_nav[0].classList.adremoved('appear');
+                    elements10_nav[0].classList.remove('appear');
                     elements10_font1[0].classList.add('appear-active');
                     elements10_font2[0].classList.add('appear-active');
                     elements10_nav[0].classList.add('appear-active');
@@ -482,7 +477,6 @@ window.onload = function () {
                         elements2_font4[0].classList.add('appear');
                         elements2_font5[0].classList.add('appear');
                         elements2_font6[0].classList.add('appear');
-                        elements2_font7[0].classList.add('appear');
                         // 使用setTimeout或者其他逻辑来移除.appear类和添加.appear-active类，以触发进一步的动画效果
                         setTimeout(() => {
                             elements2[0].style.visibility = "visible"
@@ -494,7 +488,6 @@ window.onload = function () {
                             elements2_font4[0].classList.remove('appear');
                             elements2_font5[0].classList.remove('appear');
                             elements2_font6[0].classList.remove('appear');
-                            elements2_font7[0].classList.remove('appear');
                             elements2_font1[0].classList.add('appear-active');
                             elements2_font2[0].classList.add('appear-active');
                             elements2_img1[0].classList.add('appear-active');
@@ -503,7 +496,6 @@ window.onload = function () {
                             elements2_font4[0].classList.add('appear-active');
                             elements2_font5[0].classList.add('appear-active');
                             elements2_font6[0].classList.add('appear-active');
-                            elements2_font7[0].classList.add('appear-active');
                         }, 900); // 根据CSS中的transition-delay来设置适当的时间
                     }
                 }

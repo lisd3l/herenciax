@@ -128,7 +128,7 @@
     font-family: grandam;
     font-style: normal;
     font-weight: 400;
-    src: url(https://storage.googleapis.com/studio-front/fonts/grandam.ttf) format("truetype")
+    src: url(../css/grandam.ttf) format("truetype")
 }
 
 @font-face {
@@ -1168,7 +1168,7 @@ a[data-v-ac5d8026] {
 }
 
 .snackbar .convey.error .icon[data-v-5a917894] {
-    background-image: url(./close_circle.c7480f3c.svg)
+    background-image: url(../img/close_circle.c7480f3c.svg)
 }
 
 .snackbar .convey.error .message[data-v-5a917894] {
@@ -1176,7 +1176,7 @@ a[data-v-ac5d8026] {
 }
 
 .snackbar .convey.success .icon[data-v-5a917894] {
-    background-image: url(./round_check.0ebac23f.svg)
+    background-image: url(../img/round_check.0ebac23f.svg)
 }
 
 .snackbar .convey.success .message[data-v-5a917894] {
