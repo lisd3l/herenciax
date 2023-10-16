@@ -10,19 +10,19 @@ window.onload = function () {
             // these IDs from the previous steps
             emailjs.sendForm('gmail', 'gmailtest', this)
                 .then(function () {
-                    $('#sendMailOk').css({"visibility":"visible", });
+                    $('#sendMailOk').css({ "visibility": "visible", });
                     $('#contact-form').find("textarea, input").val("").end().find(":checked").prop("checked", false);
                 }, function (error) {
                     alert('send fail！')
                 });
         });
     }
-    
-    $('#closeMessage').on("click",function(){
+
+    $('#closeMessage').on("click", function () {
         $("#sendMailOk").css({
-            "visibility":"hidden", 
+            "visibility": "hidden",
         });
-      });
+    });
     $('a').click(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
@@ -531,8 +531,6 @@ window.onload = function () {
                             elements3_font3[0].classList.remove('appear');
                             elements3_font4[0].classList.remove('appear');
                             elements3_font5[0].classList.remove('appear');
-                            elements3_font6[0].classList.remove('appear');
-                            elements3_font7[0].classList.remove('appear');
                             elements3_font1[0].classList.add('appear-active');
                             elements3_font2[0].classList.add('appear-active');
                             elements3_img1[0].classList.add('appear-active');
@@ -567,8 +565,6 @@ window.onload = function () {
                             elements4_font3[0].classList.remove('appear');
                             elements4_font4[0].classList.remove('appear');
                             elements4_font5[0].classList.remove('appear');
-                            elements4_font6[0].classList.remove('appear');
-                            elements4_font7[0].classList.remove('appear');
                             elements4_font1[0].classList.add('appear-active');
                             elements4_font2[0].classList.add('appear-active');
                             elements4_img1[0].classList.add('appear-active');
